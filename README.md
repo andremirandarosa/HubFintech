@@ -20,12 +20,15 @@
 DOCKER:
 
 *Gerar Package JAR:*
+
 mvn package
 
 *Criar Imagem Docker:*
+
 sudo docker build -t hubfintech .
 
 *Criar e Executar Container:*
+
 sudo docker run --network host -d --name hubfintech hubfintech
 
 ------------
@@ -37,8 +40,11 @@ CONSOLE H2:
 ---
 
 *Dados de Acesso:*
+
 *JDBC URL:* jdbc:h2:mem:hubfintech
+
 *Username:* admin
+
 *Password:* admin
 
 ------------
@@ -49,7 +55,8 @@ API:
 
 
 
-*Verificar Cartão pelo Número:* GET: http://localhost:8080/api/card/*NUMERO*
+*Verificar Cartão pelo Número:* GET: http://localhost:8080/api/card/*NUMERO_CARTAO*
+
  - EX: http://localhost:8080/api/card/1234567890123456
 
 ------------
