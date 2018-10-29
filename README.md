@@ -51,7 +51,7 @@ Sistema para processamento Multi-Thread de requisições via Socket TCP para car
 
 **Listar Cartões:** GET: http://localhost:8080/api/card/list
 
-**Verificar Cartão pelo Número:** GET: http://localhost:8080/api/card/*NUMERO_CARTAO*
+**Verificar Cartão pelo Número:** GET: http://localhost:8080/api/card/**NUMERO_CARTAO**
 
 ------------
 
