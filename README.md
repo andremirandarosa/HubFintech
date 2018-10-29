@@ -17,50 +17,43 @@
 **Instruções para Execução da Aplicação:**
 
 ------------
-DOCKER:
+**DOCKER:**
 
-*Gerar Package JAR:*
+**Gerar Package JAR:** mvn package
 
-mvn package
+**Criar Imagem Docker:** sudo docker build -t hubfintech .
 
-*Criar Imagem Docker:*
-
-sudo docker build -t hubfintech .
-
-*Criar e Executar Container:*
-
-sudo docker run --network host -d --name hubfintech hubfintech
+**Criar e Executar Container:** sudo docker run --network host -d --name hubfintech hubfintech
 
 ------------
 
-CONSOLE H2:
+**CONSOLE H2:**
 
-*URL:* http://localhost:8080/h2
+
+**URL:** http://localhost:8080/h2
 
 ---
 
-*Dados de Acesso:*
-
-*JDBC URL:* jdbc:h2:mem:hubfintech
-
-*Username:* admin
-
-*Password:* admin
-
-------------
-
-API:
-
-*Listar Cartões:* GET: http://localhost:8080/api/card/list
+**Dados de Acesso:**
 
 
+**JDBC URL:** jdbc:h2:mem:hubfintech
 
-*Verificar Cartão pelo Número:* GET: http://localhost:8080/api/card/*NUMERO_CARTAO*
+**Username:** admin
 
- - EX: http://localhost:8080/api/card/1234567890123456
+**Password:** admin
 
 ------------
 
-SWAGGER API DOCS:
+**API:**
 
-*URL:* http://localhost:8080/swagger-ui.html
+**Listar Cartões:** GET: http://localhost:8080/api/card/list
+
+**Verificar Cartão pelo Número:** GET: http://localhost:8080/api/card/*NUMERO_CARTAO*
+
+------------
+
+**SWAGGER API DOCS:**
+
+
+**URL:** http://localhost:8080/swagger-ui.html
