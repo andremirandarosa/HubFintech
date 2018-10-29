@@ -19,7 +19,7 @@
 ------------
 ### DOCKER:
 
-**Gerar Package JAR:** mvn package
+**Criar Package:** mvn package
 
 **Criar Imagem Docker:** sudo docker build -t hubfintech .
 
