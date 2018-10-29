@@ -14,10 +14,10 @@
 
 ------------
 
-###**Instruções para Execução da Aplicação:**
+**Instruções para Execução da Aplicação:**
 
 ------------
-#####DOCKER:
+DOCKER:
 
 *Gerar Package JAR:*
 mvn package
@@ -30,7 +30,7 @@ sudo docker run --network host -d --name hubfintech hubfintech
 
 ------------
 
-#####CONSOLE H2:
+CONSOLE H2:
 
 *URL:* http://localhost:8080/h2
 
@@ -43,7 +43,7 @@ sudo docker run --network host -d --name hubfintech hubfintech
 
 ------------
 
-#####API:
+API:
 
 *Listar Cartões:* GET: http://localhost:8080/api/card/list
 
@@ -54,6 +54,6 @@ sudo docker run --network host -d --name hubfintech hubfintech
 
 ------------
 
-#####SWAGGER API DOCS:
+SWAGGER API DOCS:
 
 *URL:* http://localhost:8080/swagger-ui.html
