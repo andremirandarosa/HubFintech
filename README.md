@@ -6,7 +6,7 @@
 
 ------------
 
-Sistema para processamento Multi-Thread de requisições via Socket para cartões pré-pagos. Utiliza um mecanismo de Cache para gerenciamento das transações em Memória oferecendo uma melhor performance de processamento, além de utilizar uma Lista para o salvamento das transações no Banco de Dados (H2) de forma assíncrona. O sistema também pode ser executado via Container Docker, além de possuir uma API REST para visualização das informações dos cartões (com documentação via Swagger).
+Sistema para processamento Multi-Thread de requisições via Socket TCP para cartões pré-pagos. Utiliza um mecanismo de Cache para gerenciamento das transações em Memória oferecendo uma melhor performance de processamento, além de utilizar uma Lista para o salvamento das transações no Banco de Dados (H2) de forma assíncrona. O sistema também pode ser executado via Container Docker, além de possuir uma API REST para visualização das informações dos cartões (com documentação via Swagger).
 
 ------------
 
@@ -14,7 +14,7 @@ Sistema para processamento Multi-Thread de requisições via Socket para cartõe
 - 1234567890123456
 - 6543210987654321
 
-**Porta de Transações TCP:** 8081
+**Porta para Transações Socket TCP:** 8081
 
 ------------
 
