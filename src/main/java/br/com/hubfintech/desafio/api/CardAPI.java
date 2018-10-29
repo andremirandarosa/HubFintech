@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Servico REST para Usuarios
- * @author andre.rosa
+ * Servico REST para Cartoes
+ * @author andre
  */
 @Api(value = Config.PATH_API + "/card", tags = "Card")
 @RestController
